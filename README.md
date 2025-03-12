@@ -13,7 +13,7 @@ This project implements a Python web scraper to extract historical weather data 
    - A list of dates is generated using `timedelta` to iterate over each day in the specified range.
 
 2. **URL Construction and Data Retrieval:**
-   - For each date, the code dynamically constructs a URL to request the historical weather data for a specific location (San Francisco, CA, with zipcode 94102) on that date.
+   - For each date, the code dynamically constructs a URL to request the historical weather data for a specific location (**San Francisco, CA, with zipcode 94102**) on that date.
    - The `requests` library is used to send HTTP GET requests to the constructed URL.
    - The scraper includes basic error handling to check the status code of the response and skips any dates that fail to return a successful response.
 
