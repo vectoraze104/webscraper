@@ -9,7 +9,7 @@ Below is a summary of the weather data web scraper project:
 This project implements a Python web scraper to extract historical weather data from [weatherforyou.com](https://www.weatherforyou.com). The scraper is designed to work over a specified date range and collect detailed weather information for each day within that range. Below are the key components and steps of the scraper:
 
 1. **Date Range Definition:**
-   - The scraper uses the `datetime` module to define a start and end date. In this case, the dates are set from October 24, 2019 to October 31, 2019.
+   - The scraper uses the `datetime` module to define a start and end date. In this case, the dates are set from October 24, 2019 to October 31, 2019. _The user can change it to any range_.
    - A list of dates is generated using `timedelta` to iterate over each day in the specified range.
 
 2. **URL Construction and Data Retrieval:**
